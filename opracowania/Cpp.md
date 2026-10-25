@@ -106,7 +106,7 @@ char d;
 // przechowuje znak: 'a', 'b', 'c'...
 // ogranicza sie do 1 znaku
 
-*string e;
+string e;
 // ciag znakow: "abc", "abcdef"...
 // ciezko okreslic maksymalny rozmiar
 
