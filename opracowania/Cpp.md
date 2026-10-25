@@ -409,6 +409,7 @@ int main() {
 	lew.text();
 }
 ```
+---
 ### Struct / Union
 ```cpp
 struct Zwierze {
