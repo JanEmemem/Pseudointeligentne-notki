@@ -262,7 +262,8 @@ unitbuf - oproznia bufor po kazdej operacji wyjscia
 nounitbuf - analogicznie
 */
 ```
-![[Programowanie/Pseudointeligentne notki/img/ANSI_sample_program_output.png]]
+![Colors](img/ANSI_sample_program_output.png)
+
 >Wyświetla dane w konsoli odpowiednio je formatując
 ---
 # Instrukcje warunkowe

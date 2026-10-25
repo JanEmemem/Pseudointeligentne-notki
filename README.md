@@ -2,6 +2,6 @@
 Skarbiec wiedzy i ewentualnej głupoty
 
 ### Opracowania
-| Zawartość                      | Język |
-| ------------------------------ | ----- |
-| [Skondensowana wiedza](cpp.md) | C++   |
+| Zawartość                                  | Język |
+| ------------------------------------------ | ----- |
+| [Skondensowana wiedza](opracowania/Cpp.md) | `C++` |
