@@ -218,51 +218,49 @@ getline(cin, zmienna)
 int zmienna = 3;
 cout "\033[1;30m" << "tekst " << zmienna << endl;
 ```
-```cpp
-/* ZNAKI SPECJALNE
-\n	przechodzi do nowej linii
-\t	wstawia tabulator (poziomy)
-\v	wstawia tabulator pionowy
-\r	przesuwa kursor na poczatek biezacej linii
-\b	przesuwa kursor o jeden znak wstecz
-\f	*znak wysuniecia strony
-\a	sygnal dzwiekowy (jesli obslugiwany)
-\\	wstawia \ (backslash)
-\'	wstawia ' (apostrof)
-\"	wstawia " (cudzysłów)
-\?	*wstawia ?
-\0	*znak o wartości zero
-*/
-```
-```cpp
-/* MANIPULATORY
-endl 			- wowa linia + oproznienie bufora
-flush 			- oproznia bufor
-ends 			- wstawia znak \0
-boolalpha 		- wyswietla true/false zamiast 1/0
-noboolalpha 		- analogicznie, wyswietla 1/0
-dec 			- system dziesiętny
-hex 			- system szesnastkowy
-oct 			- system osemkowy
-showbase 		- wyswietla przedrostek systemu liczbowego
-noshowbase 		- analogicznie, nie wyswietla
-showpos 			- dodaje + przed liczby nieujemne
-noshowpos 		- analogicznie, nie dodaje
-uppercase 		- wielkie litery
-nouppercase 		- analogicznie...
-setw() 			- ustawia szerokosc
-left 			- wyrownuje do lewej (przy danej szerokosci)
-right 			- wyrownuje do prawej (...)
-internal 		- znak do lewej, wartosc do prawej (...)
-setprecision() 	- ustawia liczbe miejsx po przecinku
-fixed 			- wyswietla dana ilosc miejsc po przecinku
-scientific 		- notacja wykladnicza
-defaultfloat 	- analogicznie
-unitbuf 			- oproznia bufor po kazdej operacji wyjscia
-nounitbuf 		- analogicznie
-*/
-```
 ![Colors](../img/ANSI_sample_program_output.png)
+
+| Znak | Opis |
+|---|---|
+| `\n` | przechodzi do nowej linii |
+| `\t` | wstawia tabulator (poziomy) |
+| `\v` | wstawia tabulator pionowy |
+| `\r` | przesuwa kursor na poczatek biezacej linii |
+| `\b` | przesuwa kursor o jeden znak wstecz |
+| `\f` | znak wysuniecia strony |
+| `\a` | sygnal dzwiekowy (jesli obslugiwany) |
+| `\\` | wstawia \ (backslash) |
+| `\'` | wstawia ' (apostrof) |
+| `\"` | wstawia " (cudzysłów) |
+| `\?` | wstawia ? |
+| `\0` | znak o wartości zero |
+
+| Manipulator      | Opis                                       |
+| ---------------- | ------------------------------------------ |
+| `endl`           | nowa linia + oproznienie bufora            |
+| `flush`          | oproznia bufor                             |
+| `ends`           | wstawia znak `\0`                          |
+| `boolalpha`      | wyswietla true/false zamiast 1/0           |
+| `noboolalpha`    | analogicznie, wyswietla 1/0                |
+| `dec`            | system dziesiętny                          |
+| `hex`            | system szesnastkowy                        |
+| `oct`            | system osemkowy                            |
+| `showbase`       | wyswietla przedrostek systemu liczbowego   |
+| `noshowbase`     | analogicznie, nie wyswietla                |
+| `showpos`        | dodaje + przed liczby nieujemne            |
+| `noshowpos`      | analogicznie, nie dodaje                   |
+| `uppercase`      | wielkie litery                             |
+| `nouppercase`    | analogicznie...                            |
+| `setw()`         | ustawia szerokosc                          |
+| `left`           | wyrownuje do lewej (przy danej szerokosci) |
+| `right`          | wyrownuje do prawej (...)                  |
+| `internal`       | znak do lewej, wartosc do prawej (...)     |
+| `setprecision()` | ustawia liczbe miejsx po przecinku         |
+| `fixed`          | wyswietla dana ilosc miejsc po przecinku   |
+| `scientific`     | notacja wykladnicza                        |
+| `defaultfloat`   | analogicznie                               |
+| `unitbuf`        | oproznia bufor po kazdej operacji wyjscia  |
+| `nounitbuf`      | analogicznie                               |
 
 >Wyświetla dane w konsoli odpowiednio je formatując
 ---
